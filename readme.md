@@ -20,19 +20,19 @@
 
 ## React for production
 
-Check out [project technical decisions explained](link)
+Check out [projects technical decisions explained](link)
 
 Overview :
 
-- We chose a `feature-based project structure`.
+- We chose a `feature-based project structure` for all the projects.
 
-- The application requires multiple `rendering strategies` (server-side rendering, client-side rendering, static generation) so we chose `Nextjs`
+- The applications requires multiple `rendering strategies` (server-side rendering, client-side rendering, static generation) so we chose `Nextjs`
 
 - For `state management` : Zustand, React Query, React Hook Form
 
 - For `styling` : Tailwind
 
-- The `authentication` of our application will be : cookie-based
+- The `authentication` strategy : cookie-based
 
 - For `unit test` : Jest
 
@@ -40,5 +40,12 @@ Overview :
 
 - For `end-to-end test` : Cypress
 
-Live demo available here : [Job board demo](jobboard)
-Repo available here : [Job board repo](repo)
+Projects :
+
+1. audiophile : [audiophile demo](audiophile) / [audiophile repo](repo)
+
+2. Invoice : [Invoice demo](jobboard) / [Invoice repo](repo)
+
+3. Feedback : [Feedback demo](jobboard) / [Feedback repo](repo)
+
+4. Job board: [Job board demo](jobboard) / [Job board repo](repo)
